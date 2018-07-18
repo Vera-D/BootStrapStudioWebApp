@@ -7,6 +7,7 @@
     <title>Home - Brand</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
@@ -50,9 +51,8 @@
                             class="collapse navbar-collapse float-left" id="navcol-1">
                             <ul class="nav navbar-nav">
                                 <li class="nav-item" role="presentation"><a class="nav-link" href="3_DashboardA.html">Dashboard</a></li>
-                                <li class="dropdown"><a class="dropdown-toggle nav-link dropdown-toggle" data-toggle="dropdown" aria-expanded="false" href="#">Runs</a>
-                                    <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="4_Runs-New.html">New Run</a><a class="dropdown-item" role="presentation" href="4_Runs-Old.html">Past Runs</a></div>
-                                </li>
+                                <li class="nav-item" role="presentation"><a class="nav-link" href="4_Runs-Old.html">Past Runs</a></li>
+                                <li class="nav-item" role="presentation"><a class="nav-link" href="4_Runs-New-1.html">New Run</a></li>
                                 <li class="nav-item" role="presentation"><a class="nav-link" href="#">Data</a></li>
                                 <li class="nav-item" role="presentation"><a class="nav-link" href="#">Analysis</a></li>
                                 <li class="nav-item" role="presentation"><a class="nav-link" href="#">Administration</a></li>
@@ -65,7 +65,7 @@
     </div>
     </div>
     <div class="col" style="height:20px;background-color:rgb(109,126,137);">
-        <div class="row" style="padding:6px;">
+        <div class="row" style="padding:6px;height:718px;">
             <div class="col">
                 <div class="steps-progressbar">
                     <ul>
@@ -75,8 +75,8 @@
                         <li style="color:rgb(255,255,255);">Sample Details</li>
                     </ul>
                 </div>
-                <div class="card">
-                    <div class="card-body">
+                <div class="card" style="height:600px;">
+                    <div class="card-body" style="height:1000px;">
                         <div class="card-group">
                             <div class="card">
                                 <div class="card-body">
@@ -89,67 +89,72 @@
                                 </div>
                             </div>
                         </div>
-                        <div style="height:20px;"></div>
+                        <div style="height:10px;"></div>
                         <div class="card-group">
                             <div class="card">
-                                <div class="card-body" style="height:109px;">
-                                    <div class="row">
-                                        <div class="col-lg-1">
-                                            <p style="width:150PX;"><strong>Species : &nbsp;</strong></p>
-                                        </div>
-                                        <div class="col">
-                                            <div class="dropdown"><button class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button" style="width:300PX;">sPECIES SELECTION</button>
-                                                <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">Human<br></a><a class="dropdown-item" role="presentation" href="#">Mouse</a><a class="dropdown-item" role="presentation" href="#">Zebrafish</a><a class="dropdown-item"
-                                                        role="presentation" href="#">Microbes</a><a class="dropdown-item" role="presentation" href="#">Other</a></div>
+                                <div class="card">
+                                    <div class="card-body" style="height:109px;">
+                                        <div class="row">
+                                            <div class="col-lg-1">
+                                                <p style="width:150PX;"><strong>Species : &nbsp;</strong></p>
+                                            </div>
+                                            <div class="col">
+                                                <div class="dropdown"><button class="btn btn-primary btn-sm dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button" style="width:300PX;">sPECIES SELECTION</button>
+                                                    <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">Human<br></a><a class="dropdown-item" role="presentation" href="#">Mouse</a><a class="dropdown-item" role="presentation" href="#">Zebrafish</a>
+                                                        <a
+                                                            class="dropdown-item" role="presentation" href="#">Microbes</a><a class="dropdown-item" role="presentation" href="#">Other</a></div>
+                                                </div>
                                             </div>
                                         </div>
+                                        <div style="height:20PX;"></div>
+                                        <p style="width:260PX;"><strong>&nbsp;</strong><i class="fa fa-question-circle"></i><strong>&nbsp;Genome Reference: </strong>&lt;from FASTA file&gt;<br></p>
                                     </div>
-                                    <div style="height:20PX;"></div>
-                                    <p style="width:260PX;"><strong>&nbsp;</strong><i class="fa fa-question-circle"></i><strong>&nbsp;Genome Reference: </strong>&lt;from FASTA file&gt;<br></p>
-                                </div>
-                                <div class="card-body">
-                                    <h4 class="text-capitalize card-title"><strong>Sequence alignment Files</strong></h4><small class="form-text text-muted">Select input files for sequence analysis.</small>
-                                    <div class="row">
-                                        <div class="col-lg-1" style="width:80px;">
-                                            <p style="width:80px;"><i class="fa fa-question-circle"></i>&nbsp;FASTA<br></p>
+                                    <div style="height:10PX;"></div>
+                                    <div class="card-body">
+                                        <h4 class="text-capitalize card-title"><strong>Sequence alignment Files</strong></h4><small class="form-text text-muted">Select input files for sequence analysis.</small>
+                                        <div class="row">
+                                            <div class="col-lg-1" style="width:80px;">
+                                                <p style="width:80px;"><i class="fa fa-question-circle"></i>&nbsp;FASTA<br></p>
+                                            </div>
+                                            <div class="col-lg-8"><input type="file"></div>
                                         </div>
-                                        <div class="col-lg-8"><input type="file"></div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-1" style="width:80px;">
-                                            <p style="width:80px;"><i class="fa fa-question-circle"></i>&nbsp;VCF</p>
+                                        <div class="row">
+                                            <div class="col-lg-1" style="width:80px;">
+                                                <p style="width:80px;"><i class="fa fa-question-circle"></i>&nbsp;VCF &nbsp; &nbsp;<br></p>
+                                            </div>
+                                            <div class="col-lg-8"><input type="file"></div>
                                         </div>
-                                        <div class="col"><input type="file"></div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-lg-1">
-                                            <p style="width:80px;"><i class="fa fa-question-circle"></i>&nbsp;Encoding</p>
+                                        <div class="row">
+                                            <div class="col-lg-1">
+                                                <p style="width:80px;"><i class="fa fa-question-circle"></i>&nbsp;Encoding</p>
+                                            </div>
+                                            <div class="col-lg-8"><input type="file"></div>
                                         </div>
-                                        <div class="col-lg-8"><input type="file"></div>
-                                    </div>
-                                    <h4 class="text-capitalize card-title"><strong>Counting Analysis File</strong></h4>
-                                    <div class="row">
-                                        <div class="col-lg-1" style="width:80px;">
-                                            <p style="width:80px;"><i class="fa fa-question-circle"></i>&nbsp;RLF<br></p>
+                                        <h4 class="text-capitalize card-title"><strong>Counting Analysis File</strong></h4>
+                                        <div class="row">
+                                            <div class="col-lg-1" style="width:80px;">
+                                                <p style="width:80px;"><i class="fa fa-question-circle"></i>&nbsp;RLF<br></p>
+                                            </div>
+                                            <div class="col-lg-8"><input type="file"></div>
                                         </div>
-                                        <div class="col-lg-8"><input type="file"></div>
+                                        <p class="card-text"></p>
                                     </div>
-                                    <p class="card-text"></p>
                                 </div>
                             </div>
                         </div>
+                        <div style="height:20px;"></div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="row" style="background-color:#000000;height:59px;">
+            <div class="col offset-lg-1" style="color:rgb(0,0,0);background-color:#000000;"><button class="btn btn-light" type="button" data-dismiss="modal" style="margin:6px;">Cancel</button></div>
+            <div class="col offset-lg-0" style="background-color:#000000;"><a class="btn btn-primary float-right" role="button" href="4_Runs-New-3.html" style="margin:6px;">nEXT</a><a class="btn btn-light float-right" role="button" href="4_Runs-New-1.html" data-dismiss="modal" style="margin:6px;">Back</a></div>
+            <div
+                class="col-lg-1" style="background-color:#000000;"></div>
     </div>
-    <div class="article-clean" style="background-color:rgb(109,126,137);height:599px;"></div>
-    <div class="row" style="background-color:#000000;height:59px;">
-        <div class="col offset-lg-1" style="color:rgb(0,0,0);background-color:#000000;"><button class="btn btn-light" type="button" data-dismiss="modal" style="margin:6px;">Cancel</button></div>
-        <div class="col offset-lg-0" style="background-color:#000000;"><a class="btn btn-primary float-right" role="button" href="4_Runs-New-3.html" style="margin:6px;">nEXT</a><a class="btn btn-light float-right" role="button" href="4_Runs-New-1.html" data-dismiss="modal" style="margin:6px;">Back</a></div>
-        <div class="col-lg-1"></div>
     </div>
-    <div class="article-clean" style="background-color:rgb(109,126,137);height:200px;"></div>
+    <div class="article-clean" style="background-color:rgb(109,126,137);height:900px;"></div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/theme.js"></script>
