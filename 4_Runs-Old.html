@@ -10,21 +10,26 @@
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/material-icons.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700">
-    <link rel="stylesheet" href="assets/css/PUSH---Bootstrap-Button-Pack-1.css">
-    <link rel="stylesheet" href="assets/css/PUSH---Bootstrap-Button-Pack-3.css">
-    <link rel="stylesheet" href="assets/css/PUSH---Bootstrap-Button-Pack-2.css">
     <link rel="stylesheet" href="assets/css/circle-progress-bar.css">
-    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Table-with-search-1.css">
+    <link rel="stylesheet" href="assets/css/Form-Select---Full-Date---Month-Day-Year.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
     <link rel="stylesheet" href="assets/css/Login-Form-Clean.css">
     <link rel="stylesheet" href="assets/css/Modal--Form.css">
     <link rel="stylesheet" href="assets/css/modal-button.css">
     <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
-    <link rel="stylesheet" href="assets/css/Options.css">
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/PUSH---Bootstrap-Button-Pack-1.css">
+    <link rel="stylesheet" href="assets/css/PUSH---Bootstrap-Button-Pack-2.css">
+    <link rel="stylesheet" href="assets/css/PUSH---Bootstrap-Button-Pack-3.css">
     <link rel="stylesheet" href="assets/css/PUSH---Bootstrap-Button-Pack.css">
     <link rel="stylesheet" href="assets/css/Steps-Progressbar.css">
+    <link rel="stylesheet" href="assets/css/Table-with-search.css">
+    <link rel="stylesheet" href="assets/css/Options.css">
 </head>
 
 <body style="color:rgb(109,126,137);">
@@ -73,7 +78,25 @@
             <p>The runs below have all been processed on the instrument.</p>
             <div class="card">
                 <div class="card-body">
-                    <h4 class="card-title">Runs on Instrument &nbsp; &nbsp; &nbsp;<button class="btn btn-light" type="button" data-toggle="modal" data-target="#modal1"><i class="fa fa-plus"></i>fILTER</button></h4>
+                    <div class="row">
+                        <div class="col">
+                            <h4>Runs on Instrument &nbsp; &nbsp; &nbsp;</h4>
+                        </div>
+                        <div class="col-lg-2"><button class="btn btn-light" type="button" data-toggle="modal" data-target="#modal1"><i class="fa fa-plus"></i>fILTER</button></div>
+                        <div class="col">
+                            <div class="row">
+                                <div class="col-sm-12"><select class="display-inline-block"><optgroup label="This is a group"><option value="12" selected="">This is item 1</option><option value="13">This is item 2</option><option value="14">This is item 3</option></optgroup></select>
+                                    <select
+                                        class="display-inline-block">
+                                        <optgroup label="This is a group">
+                                            <option value="12" selected="">This is item 1</option>
+                                            <option value="13">This is item 2</option>
+                                            <option value="14">This is item 3</option>
+                                        </optgroup>
+                                        </select><select class="display-inline-block"><optgroup label="This is a group"><option value="12" selected="">This is item 1</option><option value="13">This is item 2</option><option value="14">This is item 3</option></optgroup></select></div>
+                            </div>
+                        </div>
+                    </div>
                     <p class="card-text">Select the runs you want to review</p>
                     <div></div>
                     <div class="table-responsive">
@@ -240,6 +263,8 @@
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+    <script src="assets/js/Table-with-search.js"></script>
     <script src="assets/js/theme.js"></script>
 </body>
 

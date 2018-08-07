@@ -10,24 +10,29 @@
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/material-icons.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700">
-    <link rel="stylesheet" href="assets/css/PUSH---Bootstrap-Button-Pack-1.css">
-    <link rel="stylesheet" href="assets/css/PUSH---Bootstrap-Button-Pack-3.css">
-    <link rel="stylesheet" href="assets/css/PUSH---Bootstrap-Button-Pack-2.css">
     <link rel="stylesheet" href="assets/css/circle-progress-bar.css">
-    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Table-with-search-1.css">
+    <link rel="stylesheet" href="assets/css/Form-Select---Full-Date---Month-Day-Year.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
     <link rel="stylesheet" href="assets/css/Login-Form-Clean.css">
     <link rel="stylesheet" href="assets/css/Modal--Form.css">
     <link rel="stylesheet" href="assets/css/modal-button.css">
     <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
-    <link rel="stylesheet" href="assets/css/Options.css">
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/PUSH---Bootstrap-Button-Pack-1.css">
+    <link rel="stylesheet" href="assets/css/PUSH---Bootstrap-Button-Pack-2.css">
+    <link rel="stylesheet" href="assets/css/PUSH---Bootstrap-Button-Pack-3.css">
     <link rel="stylesheet" href="assets/css/PUSH---Bootstrap-Button-Pack.css">
     <link rel="stylesheet" href="assets/css/Steps-Progressbar.css">
+    <link rel="stylesheet" href="assets/css/Table-with-search.css">
+    <link rel="stylesheet" href="assets/css/Options.css">
 </head>
 
-<body style="color:rgb(109,126,137);">
+<body style="color:rgb(109,126,137);height:2000PX;">
     <div class="row">
         <div class="col">
             <h1 class="text-capitalize float-left" style="font-size:30px;">&nbsp;<img src="assets/img/nanostring-technologies_owler_20171121_034224_original.png" style="width:185px;">&nbsp; &nbsp; Hyb&amp;Seq&nbsp;</h1>
@@ -64,21 +69,277 @@
         <div class="col-md-6 col-lg-5 mr-auto" style="height:65px;"><a class="btn btn-primary float-right" role="button" href="3_Instrument1.html" style="margin:10px;background-color:rgb(86,88,91);">Instrument</a></div>
     </div>
     </div>
-    <section style="background-color:rgb(109,126,137);"></section>
-    <div class="clearfix"></div>
-    <div class="article-clean" style="background-color:rgb(109,126,137);height:30pxpx;">
-        <p class="text-capitalize" style="color:rgb(255,255,255);font-size:15px;">&nbsp; &nbsp; &nbsp;THIS IS THE DASHBOARD PAGE.. IT IS IN PROGRESS... SELECT INSTRUMENT OR NEW RUN</p>
-    </div>
-    <div class="card">
-        <div class="card-img-overlay" style="background-color:#ffffff;height:80px;">
-            <h4 class="text-capitalize"><i class="fa fa-circle" style="font-size:20px;color:rgb(47,186,86);"></i>&nbsp;H&amp;S_1389181Z5_exANSH9 (aliasnamehere) has been completed &nbsp;<a href="#">Data</a> &nbsp;| &nbsp;<a href="#">Reanalysis</a></h4>
+    <div style="background-color:#6d7e89;height:2000px;">
+        <div style="height:20px;"></div>
+        <div class="row justify-content-start" style="width:1650;margin:0px,0px;padding:-19px;height:809px;">
+            <div class="col-md-6 col-lg-7 col-xl-6 offset-xl-0">
+                <div class="container-fluid" style="width:850px;height:65px;">
+                    <div class="card" style="width:850px;">
+                        <h4 class="text-capitalize" style="width:850px;">&nbsp; &nbsp;<i class="fa fa-circle" style="font-size:20px;color:rgb(47,186,86);"></i>&nbsp;H&amp;S_1389181Z5_exANSH9 (aliasnamehere) has been completed &nbsp;<a href="#">Data</a> &nbsp;| &nbsp;<a href="#">Reanalysis</a></h4>
+                    </div>
+                </div>
+                <div class="container-fluid" style="width:850px;height:349px;">
+                    <div class="card" style="height:312px;width:850px;">
+                        <section style="height:45px;">
+                            <h4 class="text-capitalize" style="width:200px;height:30px;background-color:#000000;color:rgb(255,255,255);">&nbsp; &nbsp;<i class="material-icons" style="font-size:20px;color:rgb(47,186,86);padding:4px;">directions_run</i>&nbsp;Recent &nbsp;runs</h4><div class="form-group pull-right">
+    <input type="text" class="search form-control" placeholder="Filter Recent Runs?">
+</div>
+<span class="counter pull-left"></span>
+<table class="table table-hover table-bordered results">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th class="col-md-5 col-xs-5">Alias</th>
+      <th class="col-md-4 col-xs-4">Status</th>
+      <th class="col-md-3 col-xs-3">Application</th>
+	  <th class="col-md-3 col-xs-3">Panel</th>
+	  <th class="col-md-3 col-xs-3">Group</th>
+    </tr>
+    <tr class="warning no-result">
+      <td colspan="4"><i class="fa fa-warning"></i> No result</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Alias1</td>
+      <td>Created</td>
+      <td>Sequencing DNA</td>
+	  <td>OncoBreast</td>
+	  <td>Retuximab Study</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Alias2</td>
+      <td>Complete</td>
+      <td>Sequencing RNA</td>
+	  <td>CML Fusion</td>
+	  <td>CML Study</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>Alias3</td>
+      <td>Complete</td>
+      <td>Sequencing & Counting DNA</td>
+	  <td>OncoGIST</td>
+	  <td>Regorafenib Study</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>Alias4</td>
+      <td>Complete</td>
+      <td>Counting DNA</td>
+	  <td>ID MRSA</td>
+	  <td>MRSA Study</td>
+    </tr>
+  </tbody>
+</table></section>
+                    </div>
+                </div>
+                <div class="container-fluid" style="width:850px;height:349px;">
+                    <div class="card" style="height:312px;width:850px;">
+                        <div class="row">
+                            <div class="col-xl-4">
+                                <h4 class="text-capitalize" style="width:200px;height:30px;background-color:#000000;color:rgb(255,255,255);">&nbsp; &nbsp;<i class="fas fa-dna" style="font-size:20px;color:rgb(47,186,86);padding:4px;"></i>&nbsp;Recent &nbsp;samples</h4>
+                            </div>
+                            <div class="col">
+                                <div style="height:10px;"></div>
+                                <p class="float-right" style="width:100px;">Search Runs:</p>
+                            </div>
+                            <div class="col">
+                                <div style="height:10px;"></div><input class="float-left" type="search" style="width:150px;"></div>
+                        </div>
+                        <div style="height:45px;"></div>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th style="width:122px;">Sample ID</th>
+                                        <th style="width:196px;">Status</th>
+                                        <th style="width:210PX;">Panel</th>
+                                        <th style="width:210px;">Group</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>PC</td>
+                                        <td>Complete</td>
+                                        <td>OncoBreast</td>
+                                        <td>Rituximab Study<br></td>
+                                    </tr>
+                                    <tr>
+                                        <td>NTC</td>
+                                        <td>Warning</td>
+                                        <td>OncoBreast<br></td>
+                                        <td>Rituximab Study<br></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sample1</td>
+                                        <td>Complete</td>
+                                        <td>OncoBreast</td>
+                                        <td>Rituximab Study<br></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sample2</td>
+                                        <td>Complete</td>
+                                        <td>OncoBreast</td>
+                                        <td>Rituximab Study<br></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sample3</td>
+                                        <td>Error</td>
+                                        <td>OncoBreast</td>
+                                        <td>Rituximab Study<br></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sample4</td>
+                                        <td>Complete</td>
+                                        <td>OncoBreast</td>
+                                        <td>Rituximab Study<br></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sample5</td>
+                                        <td>Complete</td>
+                                        <td>OncoBreast</td>
+                                        <td>Rituximab Study<br></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sample6</td>
+                                        <td>Complete</td>
+                                        <td>OncoBreast</td>
+                                        <td>Rituximab Study<br></td>
+                                    </tr>
+                                    <tr>
+                                        <td>PC</td>
+                                        <td>Complete</td>
+                                        <td>OncoGIST</td>
+                                        <td>Regorafenib Study<br></td>
+                                    </tr>
+                                    <tr>
+                                        <td>NTC</td>
+                                        <td>Complete</td>
+                                        <td>OncoGIST</td>
+                                        <td>Regorafenib Study<br></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sample1</td>
+                                        <td>Complete</td>
+                                        <td>OncoGIST</td>
+                                        <td>Regorafenib Study<br></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sample2</td>
+                                        <td>Complete</td>
+                                        <td>OncoGIST</td>
+                                        <td>Regorafenib Study<br></td>
+                                    </tr>
+                                    <tr>
+                                        <td>PC</td>
+                                        <td>Complete</td>
+                                        <td>ID BSL1</td>
+                                        <td>MRSA</td>
+                                    </tr>
+                                    <tr>
+                                        <td>NTC</td>
+                                        <td>Complete</td>
+                                        <td>ID BSL1</td>
+                                        <td>MRSA</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sample1 MRSA</td>
+                                        <td>Complete</td>
+                                        <td>ID BSL1</td>
+                                        <td>MRSA</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Sampl 2 MRSA</td>
+                                        <td>Complete</td>
+                                        <td>ID BSL1</td>
+                                        <td>MRSA</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 offset-xl-1" style="width:680px;">
+                <div class="card" style="height:377px;width:455px;">
+                    <h4 class="text-capitalize" style="width:200px;height:35px;background-color:#000000;color:rgb(255,255,255);">&nbsp; &nbsp;<i class="fas fa-user-alt" style="font-size:20px;color:rgb(47,186,86);padding:4px;"></i>User Summary</h4>
+                    <div style="height:10px;"></div>
+                    <section style="height:300px;">
+                        <div class="row" style="height:300px;">
+                            <div class="col">
+                                <p style="font-size:17px;"><strong>&nbsp; Last Logged In:</strong></p>
+                                <p style="font-size:17px;"><strong>&nbsp; Last Run:</strong></p>
+                                <p style="font-size:17px;"><strong>&nbsp; Last Panel:</strong></p>
+                                <p style="font-size:17px;"><strong>&nbsp; User Groups:</strong></p>
+                            </div>
+                            <div class="col">
+                                <p style="font-size:17px;">9 April 2018</p>
+                                <p style="font-size:17px;">Alias1</p>
+                                <p style="font-size:17px;">OncoBreast</p>
+                                <p style="font-size:17px;">Rituximab Study<br></p>
+                                <p style="font-size:17px;">Regorafenib Study<br></p>
+                                <p style="font-size:17px;">MRSA</p>
+                                <p style="font-size:17px;">Neuro Project</p>
+                                <p style="font-size:17px;">NSCLC Study</p>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div style="height:36px;"></div>
+                <div class="card" style="height:312px;width:455px;">
+                    <h4 class="text-capitalize" style="width:200px;height:35px;background-color:#000000;color:rgb(255,255,255);">&nbsp; &nbsp;<i class="fas fa-users" style="font-size:20px;color:rgb(47,186,86);padding:4px;"></i>Group Summary</h4>
+                    <div style="height:10px;"></div>
+                    <section style="height:300px;">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Group</th>
+                                        <th>Last Accessed</th>
+                                        <th>Last Run</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Retuximab Study</td>
+                                        <td>9 April 2018</td>
+                                        <td>Alias1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Regorafenib Study</td>
+                                        <td>7 April 2018</td>
+                                        <td>Alias2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>MRSA</td>
+                                        <td>5 April 2018</td>
+                                        <td>Alias3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Neuro Project</td>
+                                        <td>3 April 2018</td>
+                                        <td>Alias4</td>
+                                    </tr>
+                                    <tr>
+                                        <td>NSCLC Study</td>
+                                        <td>1 April 2018</td>
+                                        <td>Alias5</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="article-clean" style="background-color:rgb(109,126,137);height:500px;">
-        <p class="text-capitalize" style="color:rgb(255,255,255);font-size:31px;">&nbsp; &nbsp; &nbsp;THIS IS THE DASHBOARD PAGE.. IT IS IN PROGRESS... SELECT INSTRUMENT</p>
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+    <script src="assets/js/Table-with-search.js"></script>
     <script src="assets/js/theme.js"></script>
 </body>
 
