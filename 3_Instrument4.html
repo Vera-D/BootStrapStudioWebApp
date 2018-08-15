@@ -72,7 +72,7 @@
     <div class="col" style="height:20px;background-color:rgb(109,126,137);"></div>
     <div class="row" style="padding:6px;">
         <div class="col-md-3 offset-md-0 offset-lg-0" style="background-color:#ffffff;">
-            <p class="text-truncate bg-dark" style="background-color:#000000;color:rgb(255,255,255);height:40px;padding:10px;">&nbsp;<i class="fas fa-tachometer-alt"></i><strong>&nbsp; Instrument Status</strong><br></p>
+            <p class="text-truncate bg-dark" style="background-color:#000000;color:rgb(255,255,255);height:40px;padding:10px;"><strong>&nbsp;&nbsp;</strong><i class="fas fa-tachometer-alt"></i><strong>&nbsp;&nbsp;Instrument Status</strong><br><br></p>
             <div class="card">
                 <div class="card-body">
                     <p class="text-left card-text"><strong>Instrument ID:</strong> MDA5967</p>
@@ -119,17 +119,16 @@
             <div class="card">
                 <div class="card-header">
                     <ul class="nav nav-tabs card-header-tabs">
-                        <li class="nav-item"><a class="nav-link active" href="3_Instrument1.html">Molecules</a></li>
+                        <li class="nav-item"><a class="nav-link" href="3_Instrument1.html">Molecules</a></li>
                         <li class="nav-item"><a class="nav-link" href="3_Instrument2.html">Table Summary</a></li>
-                        <li class="nav-item"><a class="nav-link" href="3_Instrument3.html">Flow Cell</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="3_Instrument3.html">Flow Cell</a></li>
                         <li class="nav-item"><a class="nav-link" href="3_Instrument4.html">Flow Cell2</a></li>
                     </ul>
                 </div>
                 <div class="card-body">
-                    <h4 class="card-title">View feature Count per sample</h4>
-                    <p class="card-text">The box plot aggregates molecule count per sample using multiplex index tag.</p><img src="assets/img/Boxplot.png" style="width:611px;">
-                    <div></div>
-                </div>
+                    <h4 class="card-title">quality score on ordered array</h4>
+                    <p class="card-text">The box plot aggregates features by cycle and field of view.</p>
+                    <div></div><img src="assets/img/Rplot01.png"></div>
                 <div class="card" style="margin:9px;">
                     <div class="card-body">
                         <h4 class="text-capitalize card-title">Consumables</h4>
@@ -159,6 +158,7 @@
         </div>
     </div>
     <div class="article-clean" style="background-color:rgb(109,126,137);height:100px;"></div>
+    <div class="article-clean" style="background-color:rgb(109,126,137);height:600px;"></div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
