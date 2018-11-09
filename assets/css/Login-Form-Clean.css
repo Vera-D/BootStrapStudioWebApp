@@ -1,6 +1,6 @@
 .login-clean {
   background: #f1f7fc;
-  padding: 80px 0;
+  padding: 10px 0;
 }
 
 .login-clean form {
@@ -24,12 +24,12 @@
 .login-clean form .form-control {
   background: #f7f9fc;
   border: none;
-  border-bottom: 1px solid #dfe7f1;
+  border-bottom: 4px solid #dfe7f1;
   border-radius: 0;
   box-shadow: none;
   outline: none;
   color: inherit;
-  text-indent: 8px;
+  text-indent: 0px;
   height: 42px;
 }
 

@@ -10,23 +10,34 @@
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
-    <link rel="stylesheet" href="assets/fonts/line-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/typicons.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="assets/css/PUSH---Bootstrap-Button-Pack-1.css">
     <link rel="stylesheet" href="assets/css/PUSH---Bootstrap-Button-Pack-3.css">
     <link rel="stylesheet" href="assets/css/PUSH---Bootstrap-Button-Pack-2.css">
+    <link rel="stylesheet" href="assets/css/Card-Deck.css">
     <link rel="stylesheet" href="assets/css/circle-progress-bar.css">
     <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
     <link rel="stylesheet" href="assets/css/Form-Select---Full-Date---Month-Day-Year.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
     <link rel="stylesheet" href="assets/css/Login-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Material-Inputs-1.css">
+    <link rel="stylesheet" href="assets/css/Material-Inputs-2.css">
+    <link rel="stylesheet" href="assets/css/Material-Inputs-3.css">
+    <link rel="stylesheet" href="assets/css/Material-Inputs-4.css">
+    <link rel="stylesheet" href="assets/css/Material-Inputs-5.css">
+    <link rel="stylesheet" href="assets/css/Material-Inputs-6.css">
+    <link rel="stylesheet" href="assets/css/Material-Inputs-7.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Search-Form.css">
+    <link rel="stylesheet" href="assets/css/Material-Inputs-8.css">
+    <link rel="stylesheet" href="assets/css/Material-Inputs.css">
     <link rel="stylesheet" href="assets/css/Modal--Form.css">
     <link rel="stylesheet" href="assets/css/modal-button.css">
     <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
-    <link rel="stylesheet" href="assets/css/Pretty-Search-Form.css">
     <link rel="stylesheet" href="assets/css/Options.css">
     <link rel="stylesheet" href="assets/css/PUSH---Bootstrap-Button-Pack.css">
     <link rel="stylesheet" href="assets/css/Steps-Progressbar.css">
@@ -46,7 +57,7 @@
         </div>
     </div>
     </div>
-    <div class="col" style="height:20px;background-color:rgb(109,126,137);"></div>
+    <div class="col" style="height: 10px;background-color: rgb(109,126,137);"></div>
     <div class="row">
         <div class="col-md-12 col-lg-10 col-xl-8 offset-3 offset-sm-4 offset-md-0 float-left" style="height: 60px;background-color: #eceff0;">
             <nav class="navbar navbar-light navbar-expand-md d-table float-left" style="background-color: #eceff0;height: 60px;padding: 7px;">
@@ -56,7 +67,7 @@
                         <ul class="nav navbar-nav">
                             <li class="nav-item" role="presentation"><a class="nav-link" href="3_DashboardA-Samples.html" style="font-size: 20PX;">Dashboard</a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link" href="4_Runs-Old.html" style="font-size: 20PX;">Past Runs</a></li>
-                            <li class="nav-item" role="presentation"><a class="nav-link text-primary active" href="4_Runs-New-1.html" style="font-size: 20px;">New Run</a></li>
+                            <li class="nav-item" role="presentation"><a class="nav-link active text-primary" href="4_Runs-New-1.html" style="font-size: 20px;">New Run</a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="font-size: 20px;">Data</a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="font-size: 20px;">Analyses</a></li>
                             <li class="nav-item" role="presentation"><a class="nav-link" href="#" style="font-size: 20px;">Administration</a></li>
@@ -73,7 +84,7 @@
                 <div class="steps-progressbar">
                     <ul>
                         <li class="active" style="color:rgb(255,255,255);">Run Information</li>
-                        <li class="active" style="color:rgb(255,255,255);">References</li>
+                        <li class="active" style="color: rgb(255,255,255);">References</li>
                         <li class="active" style="color:rgb(255,255,255);">Outputs</li>
                         <li style="color:rgb(255,255,255);">Sample Details</li>
                     </ul>
@@ -82,83 +93,98 @@
                     <div class="card-body">
                         <div class="card-group">
                             <div class="card">
-                                <div class="card-body">
-                                    <h4 class="card-title">3 output selection and notification</h4>
+                                <div class="card-body" style="height: 80px;">
+                                    <h4 class="text-capitalize card-title"><strong>run Information</strong><br></h4>
                                     <div class="row">
                                         <div class="col">
-                                            <p style="background-color:#3cd95f;font-size:18PX;"><strong>&nbsp;Run ID: </strong>H&amp;S_1389181Z5_exANSH10 &nbsp; <strong>Alias:</strong>AliasNameHere &nbsp; &nbsp; <strong>Application: </strong>Sequencing DNA&nbsp; &nbsp; &nbsp;<strong>Panel:</strong>&nbsp;&lt;PANEL&gt;</p>
+                                            <p style="background-color: #dfe0df;font-size: 18PX;"><strong>&nbsp;Run ID:</strong>&nbsp;HS_1389181Z5_exANSH10&nbsp; <strong>Alias:&lt;</strong>AliasNameHere&gt; &nbsp; &nbsp;&nbsp;<strong>Application: &lt;</strong>Sequencing DNA&gt; &nbsp; &nbsp;&nbsp;<strong>Panel:</strong>&nbsp;&lt;PANEL&gt;</p>
                                         </div>
                                     </div>
-                                    <h4 class="text-capitalize card-title"><i class="fa fa-question-circle"></i>&nbsp;<strong>Select Output Files:</strong><br></h4>
                                 </div>
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col">
-                                            <form><small class="form-text text-muted">&nbsp; &nbsp;&nbsp;<i class="fa fa-check" style="color:rgb(32,214,61);"></i>&nbsp;Nanostring S6</small>
-                                                <div class="form-check" style="color:rgb(0,0,0);"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" style="color:rgb(0,0,0);" for="formCheck-1">La Nanostring FASTQ</label></div>
-                                                <div class="form-check" style="color:rgb(0,0,0);"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" style="color:rgb(0,0,0);" for="formCheck-1">La BAM</label></div>
-                                                <div class="form-check" style="color:rgb(0,0,0);"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" style="color:rgb(0,0,0);" for="formCheck-1">La CRAM&nbsp;</label></div>
-                                                <div class="form-check" style="color:rgb(0,0,0);"><input class="form-check-input" type="checkbox" id="formCheck-1"><label class="form-check-label" style="color:rgb(0,0,0);" for="formCheck-1">La VCF</label></div>
-                                                <p style="width:144px;"><i class="fa fa-question-circle"></i>&nbsp;<strong>Modify Output Path:</strong></p><input type="file"></form>
-                                        </div>
-                                        <div class="col"></div>
+                                            <form>
+                                                <h4 class="text-capitalize"><strong>5. Select Output Files:</strong></h4><small class="form-text text-muted" style="height: 30px;font-size: 20px;">&nbsp;&nbsp;<i class="fa fa-check" style="color:rgb(32,214,61);"></i>&nbsp;Nanostring S6</small>
+                                                <div
+                                                    class="form-check" style="color: rgb(0,0,0);height: 30px;font-family: Roboto, sans-serif;"><input class="form-check-input" type="checkbox" id="formCheck-1" style="width: 20px;height: 20px;"><label class="form-check-label" style="color: rgb(0,0,0);height: 21px;font-size: 20px;font-family: 'Open Sans', sans-serif;"
+                                                        for="formCheck-1">&nbsp; &nbsp; &nbsp; Nanostring FASTQ</label></div>
+                                        <div class="form-check" style="color: rgb(0,0,0);height: 30px;"><input class="form-check-input" type="checkbox" id="formCheck-1" style="width: 20px;height: 20px;"><label class="form-check-label" style="color: rgb(0,0,0);font-size: 20px;font-family: 'Open Sans', sans-serif;"
+                                                for="formCheck-1">&nbsp; &nbsp; &nbsp; .BAM</label></div>
+                                        <div class="form-check" style="color: rgb(0,0,0);font-size: 20px;height: 30px;"><input class="form-check-input" type="checkbox" id="formCheck-1" style="width: 20px;height: 20px;font-size: 20px;"><label class="form-check-label" style="color: rgb(0,0,0);font-size: 20px;font-family: 'Open Sans', sans-serif;"
+                                                for="formCheck-1">&nbsp; &nbsp; &nbsp; .CRAM&nbsp;</label></div>
+                                        <div class="form-check" style="color: rgb(0,0,0);height: 30px;"><input class="form-check-input" type="checkbox" id="formCheck-1" style="width: 20px;height: 20px;"><label class="form-check-label" style="color: rgb(0,0,0);font-size: 20px;font-family: 'Open Sans', sans-serif;"
+                                                for="formCheck-1">&nbsp; &nbsp; &nbsp; .VCF</label></div>
+                                        <div class="form-check" style="color: rgb(0,0,0);height: 30px;"><input class="form-check-input" type="checkbox" id="formCheck-1" style="width: 20px;height: 20px;"><label class="form-check-label" style="color: rgb(0,0,0);font-size: 20px;font-family: 'Open Sans', sans-serif;"
+                                                for="formCheck-1">&nbsp; &nbsp; &nbsp; .PDF Report</label></div>
+                                        </form>
                                     </div>
+                                    <div class="col">
+                                        <h4 class="text-capitalize"><strong>6. Select Output Files:</strong></h4>
+                                        <div class="dropdown"><button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false" type="button">output to&nbsp;</button>
+                                            <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="#">First Item</a><a class="dropdown-item" role="presentation" href="#">Second Item</a><a class="dropdown-item" role="presentation" href="#">Third Item</a></div>
+                                        </div>
+                                        <div style="height: 20px;"></div>
+                                        <p style="width: 144px;font-family: 'Open Sans', sans-serif;"><i class="fa fa-info-circle"></i>&nbsp;<strong>Add New Path</strong></p><input type="file" name="FilePath" value="C:Nanostring"></div>
                                 </div>
                             </div>
                         </div>
-                        <div style="height:20px;"></div>
-                        <div class="card-group">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h4 class="text-capitalize card-title"><strong>Select recipients for email notifications:</strong></h4>
-                                    <div class="row">
-                                        <div class="col-lg-1" style="width:80px;">
-                                            <p style="width:80px;"><i class="fa fa-question-circle"></i>&nbsp;<br></p>
+                    </div>
+                    <div style="height:20px;"></div>
+                    <div class="card-group">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="text-capitalize card-title"><strong>7. Select recipients for email notifications:</strong></h4>
+                                <div class="row">
+                                    <div class="col-lg-1" style="width:80px;">
+                                        <p style="width:80px;"><i class="fa fa-info-circle"></i>&nbsp;<br></p>
+                                    </div>
+                                    <div class="col">
+                                        <p class="text-center" style="font-family: 'Open Sans', sans-serif;">Address Book</p>
+                                        <ul class="list-group">
+                                            <li class="list-group-item"><span>Anna Yancey</span></li>
+                                            <li class="list-group-item"><span>Chris Reynolds</span></li>
+                                            <li class="list-group-item"><span>Christiane Nemours</span></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-2">
+                                        <div class="row">
+                                            <div class="col"><button class="btn btn-primary" type="button"><i class="fas fa-angle-right"></i></button></div>
                                         </div>
-                                        <div class="col">
-                                            <p class="text-center">Address Book</p>
-                                            <ul class="list-group">
-                                                <li class="list-group-item"><span>Anna Yancey</span></li>
-                                                <li class="list-group-item"><span>Chris Reynolds</span></li>
-                                                <li class="list-group-item"><span>Christiane Nemours</span></li>
+                                        <div style="height:10px;"></div>
+                                        <div class="row">
+                                            <div class="col"><button class="btn btn-primary" type="button"><i class="fas fa-angle-left"></i></button></div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <p class="text-center" style="font-family: 'Open Sans', sans-serif;">Recipient List</p>
+                                        <div class="card" style="height:126px;">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item"><span>TestUser1</span></li>
                                             </ul>
                                         </div>
-                                        <div class="col-lg-2">
-                                            <div class="row">
-                                                <div class="col"><button class="btn btn-primary" type="button"><i class="fas fa-angle-left"></i></button></div>
-                                            </div>
-                                            <div style="height:10px;"></div>
-                                            <div class="row">
-                                                <div class="col"><button class="btn btn-primary" type="button"><i class="fas fa-angle-left"></i></button></div>
-                                            </div>
-                                        </div>
-                                        <div class="col">
-                                            <p class="text-center">Recipient List</p>
-                                            <div class="card" style="height:126px;">
-                                                <div class="card-body"></div>
-                                            </div>
-                                        </div>
                                     </div>
-                                    <p class="card-text"></p>
                                 </div>
+                                <p class="card-text"></p>
                             </div>
                         </div>
-                        <div style="height:20px;"></div>
                     </div>
+                    <div style="height:20px;"></div>
                 </div>
             </div>
         </div>
-        <div class="row" style="background-color:#000000;height:59px;">
-            <div class="col offset-lg-1" style="color:rgb(0,0,0);background-color:#000000;"><button class="btn btn-light" type="button" data-dismiss="modal" style="margin:6px;">Cancel</button></div>
-            <div class="col offset-lg-0" style="background-color:#000000;"><a class="btn btn-primary float-right" role="button" href="4_Runs-New-4.html" style="margin:6px;">nEXT</a><a class="btn btn-light float-right" role="button" href="4_Runs-New-2.html" data-dismiss="modal" style="margin:6px;">Back</a></div>
-            <div
-                class="col-lg-1"></div>
+    </div>
+    <div class="row" style="background-color:#000000;height:59px;">
+        <div class="col offset-lg-1" style="color:rgb(0,0,0);background-color:#000000;"><button class="btn btn-light" type="button" data-dismiss="modal" style="margin:6px;">Cancel</button></div>
+        <div class="col offset-lg-0" style="background-color:#000000;"><a class="btn btn-primary float-right" role="button" href="4_Runs-New-3.html" style="margin:6px;">nEXT</a><a class="btn btn-light float-right" role="button" href="4_Runs-New-1.html" data-dismiss="modal" style="margin:6px;">Back</a></div>
+        <div class="col-lg-1"></div>
     </div>
     </div>
     <div class="article-clean" style="background-color:rgb(109,126,137);height:900px;"></div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+    <script src="assets/js/Material-Inputs.js"></script>
     <script src="assets/js/theme.js"></script>
 </body>
 

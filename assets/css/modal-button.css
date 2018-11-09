@@ -1,6 +1,6 @@
 .form-control:focus {
   border-color: #A0A0A0;
-  box-shadow: 0 0 0 0.2rem rgba(39, 58, 114, 0);
+  box-shadow: 0 0 0 0.1rem rgba(39, 58, 114, 0);
 }
 
 .enq-form {

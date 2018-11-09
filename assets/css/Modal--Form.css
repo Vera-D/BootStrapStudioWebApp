@@ -116,7 +116,7 @@ p {
   border-bottom: 1px solid #02baff;
   outline: 0;
   box-shadow: none;
-  transition: border .50s;
+  transition: border .80s;
 }
 
 .margin-t10 {
